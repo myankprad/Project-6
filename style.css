@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    max-width: 1400px;
+    background-color: #F0F4F5;
+    margin:0px 20px;
+
+    overflow: hidden;
+    background-color:#3d3b35
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+   
+nav ul{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+}
+nav li{
+    list-style-type: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+nav .logo{
+    height:60%;
+    
+    /* right:10px; */
+}
+nav img{
+    height:60%;
+    margin-left: 60px;
+    
+}
+.button{
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color:#ffffff;
+    font-size:10px;
+    margin-right: 20px;
+}
+.bottom img{ 
+    position: absolute;
+    height: 52vh;
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+   
+}
+
+main section{
+    width:60%;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50%;
+    
+}
+.col-1 { 
+    
+    height :50%
+
+   
+}
+h1{
+     
+    font-size: 40px;
+   
+    color:#ffffff;
+}
+.col-2{
+    height:50%
+   
+}
+ p{
+    font-size: 20px;
+    color: #758283;
+ }
+
+.bottom{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+   
+    
