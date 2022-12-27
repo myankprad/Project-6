@@ -82,13 +82,13 @@ main section{
 }
 .col-1 { 
     
-    height :50%
-
+    height :50%;
+    margin-right: 120px;
    
 }
 h1{
      
-    font-size: 40px;
+    font-size: 35px;
    
     color:#ffffff;
 }
@@ -97,8 +97,8 @@ h1{
    
 }
  p{
-    font-size: 20px;
-    color: #758283;
+    font-size: 12px;
+    color: #6d7576;
  }
 
 .bottom{
